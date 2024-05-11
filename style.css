@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.head{
+    font-weight:bold ;
+    font-size: larger;
+    justify-self: flex-start;
+    margin-left: 20px; 
+}
+
+.link{
+    margin-right: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.myDiv{
+    display: flex;
+    gap: 10rem;
+    margin-bottom: 100px;
+}
+
+.color{
+    background-color: dimgray;
+    padding-bottom: 30px;
+}
+.heading{
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: lighter;
+    
+
+}
+
+.image{
+    margin: opx 100px 50px 100px;
+    justify-content: flex-end;
+}
+
+.context{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 0px;
+    border: 0cap;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.subtext{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    background-color:white;
+
+}
+
+.quote{
+    dispaly:flex;
+    flex-direction: column;
+    background-color: grey;
+    margin: 80px;
+    gap: 5rem;
+}
+
+.myquote{
+    display:flex;
+    justify-content: center;
+}
+
+.myquote2{
+    display: flex;
+    justify-content: center;
+}
+
+.quote1{
+font-size: xx-large;
+margin-bottom: 3rem;
+}
+
+.quote2{
+font-size: xx-large;
+margin-bottom: 3rem;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    margin: 50px;
+    background-color: aquamarine;
+}
+
+button{
+    width: 100px;
+    height: auto;
+    background-color: blue;
+}
+
+.button{
+    width:100px;
+    height: auto;
+    display: flex;
+    align-self: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: beige;
+    font-size: larger;
+}
